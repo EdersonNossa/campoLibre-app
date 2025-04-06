@@ -99,8 +99,7 @@
 
     <!-- Footer -->
     <footer class="pie-de-pagina">
-        <p>Proyecto de aprendizaje SENA GAES 4: Anyelina Albarracín, Santiago Castro, Andrés Mena, Ederson Nossa y José
-            Gregorio Patiño</p>
+        <p>Proyecto de aprendizaje SENA GAES 4: Anyelina Albarracín, Ederson Nossa y juan Sebastian Aguillar</p>
     </footer>
 
 </html>
