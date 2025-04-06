@@ -99,7 +99,7 @@
 
     <!-- Footer -->
     <footer class="pie-de-pagina">
-        <p>Proyecto de aprendizaje SENA GAES 4: Anyelina Albarracín, Ederson Nossa y juan Sebastian Aguillar</p>
+        <p>Proyecto de aprendizaje SENA GAES 4: Ederson Nossa, Anyelina Albararcin y juan Sebastian Aguillar</p>
     </footer>
 
 </html>
