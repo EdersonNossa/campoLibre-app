@@ -83,7 +83,8 @@
             <ul class="barra-menu">
                 <li><button class="boton" onclick="window.location.href='dash_administrador_mp.html';">Miperfil</button></li>
                 <li><button class="boton"><a class="ancla" href="{{url('eventos')}}">Eventos</a></button></li>
-                <li><button class="boton"onclick="window.location.href='dash_administrador_notificaciones.html';">Notificaciones</button></li>
+                <li><button class="boton"><a class="ancla" href="{{url('notificaciones')}}">Notificaciones</a></button></li>
+
                 <li><button class="boton" onclick="window.location.href='dash_administrador_estadisticas.html';">Ver Estadísticas</button></li>
                 <li><button class="boton" onclick="window.location.href='inicio_mundo.html';">Cerrar Sesión</button>
                 </li>
@@ -91,6 +92,7 @@
         </aside>
         <!------------------------------------------------------------- dash eventos------------------------------------->
         @yield('content')
+        @yield('contenido')
         
 
     </div>
