@@ -1,0 +1,299 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  /* Header fijo en la parte superior */
+  .encabezado {
+    background-color: #467302;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+ 
+  /* Logo y botón de menú */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+ 
+  /* Información del usuario */
+  .header-info .nombre {
+    color: #fff ;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .header-info .rol {
+    color: #98B80A;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+
+  /* Fuerza el color blanco para los enlaces */
+  .navbar-nav .nav-link {
+    color: hsl(0, 0%, 100%) !important; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+  /* Color de hover */
+  .navbar-nav .nav-link:hover {
+    color: #98BF0A !important; 
+  }
+  
+/* Contenedor principal */
+  .contenedor-dash {
+    display: flex;
+    margin-top: 100px;
+    padding: 20px; /* Ajuste del contenido con respecto al header */
+  }
+  
+  /* Barra Lateral */
+  .barra-menu {
+    list-style: none;
+    padding: 20;
+    width: 100%;
+  }
+  
+  .barra-menu .boton {
+    background-color: #fff;
+    border: 2px solid #467302;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: -10px; 
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .barra-menu .boton:hover {
+    background-color: #467302;
+  }
+  .barra {
+    background-color: #cfe3cc;
+    padding: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /*Espacio entre la foto y el menu del dash*/
+    border-radius: 8px; /*redondés de cuadrado verde*/
+  }
+  
+  .Foto_perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   
+  .camara-icon {
+    font-size: 3.5em;
+    position: relative;
+    top: -40px;
+    right: -30px;
+  }
+  
+  .contenido {
+    background-color: #ffffff;
+    border: 2px solid #467302;
+    width: 2500px; /* Ancho del tamaño del cuadrado blanco */
+    height: 550px; /* Alto del tamaño del cuadro blanco  */
+    margin-left: 60px; /* Espacio de separación con la barra lateral */
+    border-radius: 8px; /*redondes de cuadrado blanco*/
+  }
+  
+  
+  /* Contenedor de información del perfil */
+.info-perfil {
+  border: 2px solid #467302;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  width: 400px; /* Ajusta el tamaño del cuadro */
+  margin: 20px;
+}
+
+.info-submenu {
+  background-color: #cfe3cc;
+  border-radius: 8px;
+  padding: 10px;
+  border: 2px solid #467302;
+  text-align: center;
+  font-weight: bold;
+}
+
+.info-cuerpo p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+.info-cuerpo .rol span {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #98B80A; 
+  font-weight: bold; 
+}
+
+.editar {
+  cursor: pointer;
+  font-size: 1.5em;
+  color: #467302;
+  display: block; /* Para que aparezca debajo de los datos */
+  margin: 10px auto; /* Centrado */
+  text-align: center;
+}
+
+.editar:hover {
+  color: #98BF0A;
+}
+
+.btn-cambiar-clave {
+  background-color: #467302; 
+  color: #fff; 
+  border: 2px solid #467302; 
+  font-weight: bold;
+}
+.btn-editar-informacion {
+  background-color: #467302; 
+  color: #fff; 
+  border: 2px solid #467302; 
+  font-weight: bold;
+}
+.nomtienda {
+  color: #98BF0A;
+}
+  /* Contenedor de información de eventos ---Administrador---*/
+
+h1.text-center.mb-4 {
+    color: #467302; /* Verde */
+  }
+
+table th{
+  text-align: center; 
+  vertical-align: middle; 
+}
+.table-responsive {
+  max-height: 400px; 
+  overflow-y: auto;  
+}
+
+table {
+  width: 100%; 
+}
+
+button .bi-pencil:hover {
+  color:  #98BF0A; 
+  cursor: pointer; 
+}
+a .bi-eye:hover {
+  color:  #98BF0A; 
+  cursor: pointer; 
+}
+
+.texto-estevento-A {
+  color: #98BF0A; 
+  font-weight: bold;
+}
+
+#editar-ver {
+  background-color: #467302;
+  border: none;
+  padding: 10px;
+}
+#editar-ver:hover {
+  background-color: #3b5a2a;
+}
+
+/* Contenedor de Crear Mi tienda ---- consumidor */
+.contenido {
+  background-color: #ffffff;
+  border: 2px solid #467302;
+  width: 100%; 
+  height: auto; 
+  margin: 0 auto; 
+  border-radius: 8px; 
+  text-align: center; 
+}
+
+.crear-tienda {
+  color: #467302; 
+  font-size: 40px; 
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+.crear-tienda:hover {
+  color: #98BF0A;
+}
+
+.crear-tienda .bi {
+  font-size: 100px; 
+  display: block; 
+  margin-bottom: -20px; 
+}
+
+.mensaje-rol {
+  font-size: 24px; 
+  color: #000; 
+  line-height: 0.9;
+}
+
+.rolusuario {
+  color:  #98BF0A; 
+  font-weight: bold; 
+}
+
+#MiTienda {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #467302; /* Color verde */
+  color: white;
+  border: 2px solid #467302;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+
+#MiTienda:hover {
+  background-color: #3b5a2a;
+  color: white;
+}
+/* ventanas modulares pqrs */
+#nomusuarioM {
+  color: #98B80A;
+  font-size: 1em;
+  font-weight: bold;
+}
+#fecpqrsM {
+  color: #9e9e9e;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+/* Footer fijo en la parte inferior */
+.pie-de-pagina {
+  background-color: #467302;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

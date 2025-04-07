@@ -1,0 +1,116 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+/* Logo y botón de menú */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+  /* Header fijo en la parte superior */
+  .encabezado {
+    background-color: #467302;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+   /* Logo y botón de menú */
+   .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+/* Estilos de la lista del menú del header */
+  .navbar-nav .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  /* Color del menu del header reposive */
+  .navbar-nav .nav-link:hover {
+    color: #98BF0A;
+  }
+  /* Información del usuario */
+  .header-info .nombre {
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+  .header-info .rol {
+    color: #98B80A;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+
+  /* Estilos de los textos en la columna de bienvenida */
+  .texto-campolibre-bienvenida {
+    font-family: Arial, sans-serif;
+    font-size: 3em;
+    color: #467302;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .texto-bienvenida{
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: #000000;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /*ÁCA EMPIEZA EL FORMULARIO DE REGISTRO*/
+  
+  /* Fondo verde claro para el formulario */
+  .contenedor-formulario {
+    background-color: #cfe3cc; /*EL COLOR VERDE CLARO DEL FORMULARIO DE REGISTRO*/
+    border: 2px solid #467302;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px; /* El ancho del formulario de registro*/
+  }
+  /* Ajuste del botón de registro */
+  .btn-primary {
+    background-color: #467302;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #3b5a2a; /* PUEDE SER TAMBIÉN #98B80A PARA QUE QUEDÉ IGUAL QUE EL MENÚ DEL HEADER PERO ME PARECE QUE QUEDA MÁS LINDO ASÍ*/
+  }
+  .boton_inicio{
+    margin-top: 20px; /* Ajusta el valor según el espaciado deseado */
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Footer fijo en la parte inferior */
+  .pie-de-pagina {
+    background-color: #467302;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .enlaces-secundarios p {
+    margin: 0; /* Elimina el margen entre párrafos */
+    font-size: 0.9em; /* Tamaño de texto reducido */
+    color: #000000;
+  }
+  
